@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+.card-container1{
+font-family: 'Lobster', cursive;
+height: 393.75px;
+width: 225px;
+position: relative;
+background-color: gray;
+overflow: hidden;
+box-shadow: 0 0 11.25px gray;
+border-radius: 11.25px;
+margin: 30px;
+display: grid;
+grid-template-rows: 55% 10% 5% 20% 10%;
+grid-template-areas: "img-section" "name-section" "title-section" "desc-section" "social-section";
+text-align: center;
+}
+.card-container1:hover{
+box-shadow: 0 0 22.5px gray;
+}
+
+.img-card-section{
+grid-area: img-section;
+overflow: hidden;
+position: relative;
+}
+.img-card-square{
+background-color: gray;
+height: 281.25px;
+width: 112.5px;
+position: absolute;
+transform: rotate(70deg);
+top: 67.5px;
+left: 56.25px;
+
+}
+
+.img-card-style{
+height: 100%;
+width: 225px;
+}
+
+
+.name-card-section{
+grid-area: name-section;
+font-size: 20.25px;
+color: black;
+}
+
+.title-card-section{
+grid-area: title-section;
+font-size: 13.5px;
+color: black;
+}
+
+.desc-card-section{
+grid-area: desc-section;
+font-size: 10.5px;
+margin: 5.625px 16.875px;
+color: #000000;
+}
+
+.social-card-section{
+grid-area: social-section;
+margin:auto;
+}
+.social-card-style{
+display: inline-flex;
+height: 22.5px;
+margin: 0 11.25px;
+transition: all .3s;
+}
+.social-card-style:hover{
+transform: scale(1.2);
+}
+
+
+.profile-img-card{
+position: absolute;
+height: 112.5px;
+width: 112.5px;
+box-shadow: 0 0 0 3.0px black;
+border-radius: 50%;
+top: calc(50% - 112.5px);
+left: calc(50% - 56.25px);
+}
+
+#pages-container {
+    z-index: 3;
+    max-width: 1200px;
+    position: relative;
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    #title-container {
+    z-index: 3;
+    max-width: 1200px;
+    position: fixed;
+    padding: 8px 24px;
+    align-items: center;
+    }
+    
+    #home-video {
+        height: 100vh;
+         width: 100vw;
+         object-fit: cover;
+         position: fixed;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         z-index: -1;
+       }
