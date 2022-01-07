@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaTrash } from 'react-icons/fa';
 import Form from 'react-bootstrap/Form';
-import { VoiceDatePicker, VoiceCheckbox, VoiceInput, VoiceSelect, VoiceToggle } from "@speechly/react-voice-forms";
-import { PushToTalkButton, PushToTalkButtonContainer } from '@speechly/react-ui';
 
 const ExpenseForm = ({
   id, title, amount, date, notes, setter, submit, cancel, remove,
@@ -12,6 +10,7 @@ const ExpenseForm = ({
   return (
     <form className="row mw-form mx-auto px-1" onSubmit={submit}>
         <div className="inset">
+        {/* <VoiceInput label="Title" changeOnEntityType="title" type="text" value={title} onChange={setter} minLength={2} required /> */}
         <label for="title">Title*</label>
         <input type="text" name="title" value={title} onChange={setter} minLength={2} required />
       <Form.Group className={`${newExpense ? 'col-sm-4' : 'col-5'} mb-3`} controlId="amount">
@@ -19,15 +18,13 @@ const ExpenseForm = ({
         <input type="number" name="amount" value={amount} onChange={setter} min={0.01} step={0.01} required />
       </Form.Group>
       <Form.Group className={`${newExpense ? 'col-sm-8' : 'col-7'} mb-3`} controlId="date">
+      {/* <VoiceDatePicker label="Date" changeOnEntityType="date" type="date" name="date" value={date} onChange={setter} required /> */}
         <label for="date">Date*</label>
         <input type="date" name="date" value={date} onChange={setter} required />
       </Form.Group>
         <label for="notes">Description</label>
         <input as="textarea" rows={3} name="notes" value={notes} onChange={setter} maxLength={140} />
         </div>
-        {/* <PushToTalkButtonContainer>
-          <PushToTalkButton />
-        </PushToTalkButtonContainer> */}
       {newExpense ? (
         <div className="col-12">
           <button type="submit" className="w-100 mb-3">Create new expense</button>

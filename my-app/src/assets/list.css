@@ -3,6 +3,7 @@
 .card-container{
   perspective: 900px;
   margin-right: 20px;
+  margin-bottom: 60px;
 }
 
 .cards{
@@ -85,8 +86,14 @@ button {
     }
 
     .fw-bold{ 
-      font-size: 16px;
+      font-size: 24px;
       font-weight: bold;
-      color: black;
+      color: white;
+    }
+
+    .fz-bold{ 
+      font-size: 24px;
+      font-weight: bold;
+      color: #00a8ff;
     }
 

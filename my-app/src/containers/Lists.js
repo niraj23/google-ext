@@ -15,7 +15,8 @@ const Lists = () => {
     user, isLoading, error, dispatch, navigate,
   } = useVerify();
 
-  const [handle] = user?.username.split(/\s/) ?? '';
+  const [handle] = user?.username.toUpperCase().split(/\s/) ?? '';
+
 
   const lists = useSelector(getLists);
   const listNames = lists?.map((list) => list.name);
@@ -59,10 +60,10 @@ const Lists = () => {
         <section className="col-lg-4 offset-lg-4 mb-3">
           <Card className="custom-card h5">
             <Card.Body>
-              <Card.Title>
+              <span className="fs-8 fw-bold">
                 Hello, &nbsp;
-                <span className="fs-4 fw-bold">{handle}</span>
-              </Card.Title>
+                <span className="fs-8 fw-bold">{handle}</span>
+              </span>
               <Card.Text>
               <button type="submit" variant="outline-info" size="sm" onClick={addList}>
                   {visible ? <FaWindowClose /> : <FaPlus />}
@@ -89,7 +90,7 @@ const Lists = () => {
         )}
 
         <ul className="lists">
-          <h4>Categories</h4>
+          <h4 className="fz-bold">Categories</h4>
           {lists?.map(({ id, name }) => (
             <List
               key={id}

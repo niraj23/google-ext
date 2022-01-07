@@ -9,7 +9,9 @@ import Main from './Main';
 import SignUp from '../containers/SignUp';
 import LogIn from '../containers/LogIn';
 import Dev from '../containers/Dev';
+import alanBtn from '@alan-ai/alan-sdk-web';
 
+const alanKey = "ec782c9839e4d50b2bf11f1ffa85037b2e956eca572e1d8b807a3e2338fdd0dc/stage";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -21,6 +23,18 @@ const App = () => {
       dispatch(authenticateUser(JSON.parse(storage)));
     }
   }, []);
+
+  useEffect(() => {
+    alanBtn({
+      key: alanKey,
+      onCommand: ({ command, articles }) => {
+        if (command === "newHeadlines") {
+          console.log(articles);
+        }
+      },
+    });
+  }, []);
+
 
   return (
     <BrowserRouter>

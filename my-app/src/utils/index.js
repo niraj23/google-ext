@@ -26,13 +26,13 @@ export default function build(config) {
       plugins: {
         title: {
           display: true,
-          text: 'Amounts in USD',
-          color: 'black',
+          text: `Amounts in USD`,
+          color: 'white',
           font: {
             size: 24,
           },
           labels: {
-            color: 'black',
+            color: 'white',
           },
         },
       },

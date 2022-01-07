@@ -86,17 +86,14 @@ const Devs = () => {
                 Software Engineer
             </section>
             <section className="desc-card-section">
-                I’m a full-time, full-stack software engineering student at Flatiron School.
-                I love playing golf, playing video games and investing far too much time into every DC sports team.
+            Holly Teunis is a software developer currently residing in NYC. 
+            They love animals, music, meditation and political economy.
             </section>
             <section className="social-card-section">
-                <a href="https://medium.com/@mtoth003" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={['fab', 'medium']} className="social-card-style" />
+                <a href="https://hashnode.com/@HMTeunis" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={['fab', 'meduim']} className="social-card-style" />
                 </a>
-                <a href="http://www.linkedin.com/in/michael-toth-a95b2362" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={['fab', 'linkedin']} className="social-card-style" />
-                </a>
-                <a href="https://github.com/mtoth003" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/HMTEUNIS" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={['fab', 'github']} className="social-card-style" />
                 </a>
             </section>

@@ -130,7 +130,7 @@ header {
   @extend .grid;
 
   max-width: 500px;
-  margin: 2rem auto 1.5rem;
+  margin: 15rem auto 1.5rem;
   padding: 0 1.2rem;
 
   h4 {
@@ -354,6 +354,17 @@ h3, h4 {
   background-image: linear-gradient(to left, rgb(99, 102, 241), rgb(236, 72, 153));
   background-clip: text;
   color: transparent;
+  background-size: 200%;
+}
+
+h7{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgba(200, 55, 141, 0);
+  font-size: 5em;
+  padding: 1em 0;
+  background-clip: text;
   background-size: 200%;
 }
 
