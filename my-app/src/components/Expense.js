@@ -36,7 +36,7 @@ const Expense = ({
           <small>{date}</small>
         </p>
         <p className="align-self-center ms-2 flex-grow-1">
-          <span className="fw-bold">{title}</span>
+          <span className="fw1-bold">{title}</span>
           <br />
           <span className="notes">{notes || '...'}</span>
         </p>

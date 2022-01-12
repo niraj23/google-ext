@@ -44,7 +44,6 @@ const App = () => {
         <Route path="/login" element={<LogIn />} />
         <Route path="/app/*" element={<Main />} />
         <Route path="/devs" element={<Dev />} />
-
       </Routes>
     </BrowserRouter>
   );
