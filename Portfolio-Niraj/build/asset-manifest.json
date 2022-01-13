@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3a32fbd.chunk.css",
+    "main.js": "/static/js/main.113100d5.chunk.js",
+    "main.js.map": "/static/js/main.113100d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/css/2.e7f3f9d7.chunk.css": "/static/css/2.e7f3f9d7.chunk.css",
+    "static/js/2.4eabc3a5.chunk.js": "/static/js/2.4eabc3a5.chunk.js",
+    "static/js/2.4eabc3a5.chunk.js.map": "/static/js/2.4eabc3a5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e7f3f9d7.chunk.css.map": "/static/css/2.e7f3f9d7.chunk.css.map",
+    "static/css/main.d3a32fbd.chunk.css.map": "/static/css/main.d3a32fbd.chunk.css.map",
+    "static/js/2.4eabc3a5.chunk.js.LICENSE.txt": "/static/js/2.4eabc3a5.chunk.js.LICENSE.txt",
+    "static/media/expense.3b01fc0a.png": "/static/media/expense.3b01fc0a.png",
+    "static/media/flatiron-hub.2d3b124c.png": "/static/media/flatiron-hub.2d3b124c.png",
+    "static/media/home-main.561f0624.png": "/static/media/home-main.561f0624.png",
+    "static/media/moralis.f2e2ba95.png": "/static/media/moralis.f2e2ba95.png",
+    "static/media/nhl.6fa708d7.png": "/static/media/nhl.6fa708d7.png",
+    "static/media/niraj.97445ecb.jpeg": "/static/media/niraj.97445ecb.jpeg",
+    "static/media/np-logo.a2d8a85f.jpeg": "/static/media/np-logo.a2d8a85f.jpeg",
+    "static/media/style.css": "/static/media/pre.5d04c2ca.svg",
+    "static/media/resume.5009e4f2.pdf": "/static/media/resume.5009e4f2.pdf",
+    "static/media/spotify.d1a4ec6c.png": "/static/media/spotify.d1a4ec6c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/css/2.e7f3f9d7.chunk.css",
+    "static/js/2.4eabc3a5.chunk.js",
+    "static/css/main.d3a32fbd.chunk.css",
+    "static/js/main.113100d5.chunk.js"
+  ]
+}
