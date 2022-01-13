@@ -35,8 +35,8 @@ function Projects() {
               isBlog={false}
               title='Moralis Chat'
               description="This app was created to allow users to have a small, standalone application to log and keep track of their exercise's and to view them all in one central location. A full stack application that utilizes React.js for fast and responsive rendering, this application points to a Node.js/Express server that connects to a PostgreSQL database using Knex as the query builder."
-              link='https://mind-your-fitness.vercel.app/'
-              link2='https://github.com/Pete-Sekesan/mind-your-fitness'
+              link='https://futuristic-chat.vercel.app/'
+              link2='https://github.com/niraj23/Moralis-Chat'
             />
           </Col>
 
