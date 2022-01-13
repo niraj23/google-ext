@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
-import Particle from '../Particle';
 import flh from '../../Assets/Projects/flatiron-hub.png';
 import mor from '../../Assets/Projects/moralis.png';
 import spot from '../../Assets/Projects/spotify.png';
@@ -11,7 +10,6 @@ import exp from '../../Assets/Projects/expense.png';
 function Projects() {
   return (
     <Container fluid className='project-section'>
-      {/* <Particle /> */}
       <Container>
       <h1 className="project-heading">
           My <strong className="blue"> Personal Projects </strong>
