@@ -57,7 +57,7 @@ function Projects() {
               imgPath={spot}
               isBlog={false}
               title='Christmas Spotify'
-              description='This is an app based on my love for music and Christmas. Utilizing Spotifys API, you can search for any song or aaritst and play the song or add it to a custom playlist. There are also premade custom Global Top 50 songs(updated everytime Spotify updates their playlist), and a Christmas Playlist. The technology stack for this app included HTML, CSS, JavaScript, Rails, Recct and Spotify API.'
+              description='This is an app based on my love for music and Christmas. Utilizing Spotifys API, you can search for any song or artist and play the song or add it to a custom playlist. There are also premade custom Global Top 50 songs(updated everytime Spotify updates their playlist), and a Christmas Playlist. The technology stack for this app included HTML, CSS, JavaScript, Rails, Recct and Spotify API.'
               link='https://christmas-spotify.web.app/'
               link2='https://github.com/niraj23/Christmas-Spotify'
             />
@@ -68,9 +68,9 @@ function Projects() {
               imgPath={nhl}
               isBlog={false}
               title='NHL Fantasy App'
-              description='My First App. A Javascript with BootStrap App built to showcase NHL Teams and their perspective players. Using an NHL API this App allows you to add your favorite players from each team to a favorites list to build your fantasy team. Double Clicking a Player Card will flip it and reveal their stats updated through the NHL API. Favorites persist and you can visit the favorites tocheck on your team. Players for each team are also categorized and marked by their position.'
+              description='My First App. A Javascript with BootStrap App built to showcase NHL Teams and their perspective players. Using an NHL API this App allows you to add your favorite players from each team to a favorites list to build your fantasy team. Double Clicking a Player Card will flip it and reveal their stats updated through the NHL API. Favorites persist and you can visit the favorites to check on your team. Players for each team are also categorized and marked by their position.'
               link='https://hockey-nu.vercel.app/'
-              link='https://github.com/niraj23/NHL-Fantasy-App'
+              link2='https://github.com/niraj23/NHL-Fantasy-App'
             />
           </Col>
         </Row>
