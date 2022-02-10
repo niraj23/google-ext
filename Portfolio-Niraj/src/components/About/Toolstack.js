@@ -1,12 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiGit } from "react-icons/di";
+
 import {
   SiNetlify,
   SiVisualstudiocode,
   SiHeroku,
-  SiPostman
+  SiPostman,
 } from "react-icons/si";
-import { DiGithubBadge } from "react-icons/di"
+import { DiGithubBadge } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -14,41 +16,37 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
         <div className="overlay">
-          <div className="fadeText">
-            Netlify
-          </div>
+          <div className="fadeText">Netlify</div>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGithubBadge />
         <div className="overlay">
-          <div className="fadeText">
-            GitHub
-          </div>
+          <div className="fadeText">GitHub</div>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
         <div className="overlay">
-          <div className="fadeText">
-            VS Code
-          </div>
+          <div className="fadeText">VS Code</div>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
         <div className="overlay">
-          <div className="fadeText">
-            Heroku
-          </div>
+          <div className="fadeText">Heroku</div>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
         <div className="overlay">
-          <div className="fadeText">
-            Postman
-          </div>
+          <div className="fadeText">Postman</div>
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <div className="overlay">
+          <div className="fadeText">Git</div>
         </div>
       </Col>
     </Row>
@@ -56,4 +54,3 @@ function Toolstack() {
 }
 
 export default Toolstack;
-
