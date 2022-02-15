@@ -24,7 +24,7 @@ function Projects() {
               imgPath={exp}
               isBlog={false}
               title="Expense Tracker"
-              description="Metaverse is a 'shared virtual environment that people access via the Internet'. The technology creates a set of virtual spaces where people can immerse themselves through holograms/avatars to make it feel like they are in the same physical space. However we've build a chat app using react-js next-js taiwand-css and moralis. Moralis provides us the backend support for storing and retrieving data from blockchain."
+              description="A Ruby on Rails app with a React Frontend that allows users to keep track of expenses. Also integrated Crypto Currency widget with Alan AI and a custom script for users to find prices of any Crypto, along with other custom scripts Users are authenticated and able to access the app"
               link="https://expense-915b1.web.app/"
               link2="https://github.com/niraj23/Expense-App"
             />
@@ -35,7 +35,7 @@ function Projects() {
               imgPath={mor}
               isBlog={false}
               title="Moralis Chat"
-              description="This app was created to allow users to have a small, standalone application to log and keep track of their exercise's and to view them all in one central location. A full stack application that utilizes React.js for fast and responsive rendering, this application points to a Node.js/Express server that connects to a PostgreSQL database using Knex as the query builder."
+              description="Metaverse is a 'shared virtual environment that people access via the Internet'. The technology creates a set of virtual spaces where people can immerse themselves through holograms/avatars to make it feel like they are in the same physical space. However we've build a chat app using react-js next-js taiwand-css and moralis. Moralis provides us the backend support for storing and retrieving data from blockchain."
               link="https://futuristic-chat.vercel.app/"
               link2="https://github.com/niraj23/Moralis-Chat"
             />
