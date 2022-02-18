@@ -48,8 +48,11 @@ function Like() {
   }
 
   return (
+    // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
     <Nav.Item className="like-item">
+      // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
       <Button className="like-btn" onClick={clickHandler} disabled={btnState}>
+        // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
         <i className={likeClass} style={{ color: "#fb6fcd" }}></i> {numLike}
       </Button>
     </Nav.Item>

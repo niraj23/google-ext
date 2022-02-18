@@ -14,10 +14,14 @@ function Github() {
   };
 
   return (
+    // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
         Days I <strong className="blue">Code</strong>
       </h1>
+      // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
       <GitHubCalendar
         username="niraj23"
         blockSize={15}

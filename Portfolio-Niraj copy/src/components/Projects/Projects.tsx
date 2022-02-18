@@ -1,25 +1,40 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// @ts-expect-error ts-migrate(6142) FIXME: Module './ProjectCards' was resolved to '/Users/ni... Remove this comment to see the full error message
 import ProjectCard from "./ProjectCards";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/flatiron... Remove this comment to see the full error message
 import flh from "../../Assets/Projects/flatiron-hub.png";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/moralis.... Remove this comment to see the full error message
 import mor from "../../Assets/Projects/moralis.png";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/spotify.... Remove this comment to see the full error message
 import spot from "../../Assets/Projects/spotify.png";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/nhl.png'... Remove this comment to see the full error message
 import nhl from "../../Assets/Projects/nhl.png";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/expense.... Remove this comment to see the full error message
 import exp from "../../Assets/Projects/expense.png";
+// @ts-expect-error ts-migrate(2307) FIXME: Cannot find module '../../Assets/Projects/covid.pn... Remove this comment to see the full error message
 import covid from "../../Assets/Projects/covid.png";
 
 function Projects() {
   return (
+    // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
     <Container fluid className="project-section">
+      // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
       <Container>
+        // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
         <h1 className="project-heading">
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           My <strong className="blue"> Personal Projects </strong>
         </h1>
+        // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={exp}
               isBlog={false}
@@ -30,7 +45,9 @@ function Projects() {
             />
           </Col>
 
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={mor}
               isBlog={false}
@@ -41,7 +58,9 @@ function Projects() {
             />
           </Col>
 
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={flh}
               isBlog={false}
@@ -53,7 +72,9 @@ function Projects() {
             />
           </Col>
 
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={spot}
               isBlog={false}
@@ -64,7 +85,9 @@ function Projects() {
             />
           </Col>
 
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={nhl}
               isBlog={false}
@@ -74,7 +97,9 @@ function Projects() {
               link2="https://github.com/niraj23/NHL-Fantasy-App"
             />
           </Col>
+          // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
           <Col md={4} className="project-card">
+            // @ts-expect-error ts-migrate(17004) FIXME: Cannot use JSX unless the '--jsx' flag is provided... Remove this comment to see the full error message
             <ProjectCard
               imgPath={covid}
               isBlog={false}
